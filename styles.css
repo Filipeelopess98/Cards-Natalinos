@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom left, #c9c36e, #4e8351, #eb3043);
+    background-image: linear-gradient(to bottom left, #a37137, #4e8351, #eb3043);
 
 }
 
@@ -27,9 +27,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #eaebea;
-    width: 400px;
-    height: 600px;
+    background-color: #fcfffc;
+    width: 370px;
+    height: 550px;
     padding: 32px;
     border-radius: 40px;
 }
@@ -92,9 +92,9 @@ img {
 
 .dot {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 0 2px;
+    width: 12px;
+    height: 12px;
+    margin: 0 3px;
     background-color: #c1c1c1;
     border-radius: 50%;
     cursor: pointer;
@@ -108,7 +108,7 @@ img {
 
 .fade {
     animation-name: fade;
-    animation-duration: 2.0s;
+    animation-duration: 3.0s;
 }
 
 
