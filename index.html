@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carossel - Natal</title>
+</head>
+
+<body>
+    <div class="container">
+        <a class="prev" href="#" onclick="addSlides(-1)">
+            <span>&#10094;</span>
+            <span class="prev-text">Voltar</span>
+        </a>
+        <div>
+            <div class="slides fade">
+                <img src="assets/jesus.png" alt="">
+                <h2 class="title">LUZ E ALEGRIA</h2>
+                <p class="content">Que a luz do Natal brilhe intensamente, e a alegria se espalhe como presentes em cada
+                    lar.</p>
+            </div>
+            <div class="slides fade">
+                <img src="assets/magos.png" alt="">
+                <h2 class="title">AMOR E BONDADE</h2>
+                <p class="content">Neste Natal, que o amor inspire nossas ações e a bondade seja o presente mais valioso
+                    que oferecemos.</p>
+            </div>
+            <div class="slides fade">
+                <img src="assets/anjo.png" alt="">
+                <h2 class="title">FELIZ NATAL</h2>
+                <p class="content">Desejo a você e sua família um Natal repleto de paz, saúde e felicidade.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="button" onclick="addSlides(1)">Próximo</button>
+            <div class="dot-box">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
